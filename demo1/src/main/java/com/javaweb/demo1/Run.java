@@ -5,6 +5,7 @@
 package com.javaweb.demo1;
 
 import com.javaweb.Entity.Slides;
+import com.javaweb.Service.ProductService;
 import com.javaweb.Service.SlideService;
 import java.util.List;
 
@@ -15,10 +16,7 @@ import java.util.List;
 public class Run {
 
     public static void main(String[] args) {
-        SlideService.getSlide().forEach(q -> System.out.println(q.getImg()));
-        SlideService.getSlide().forEach(q -> System.out.println(q.getCaption()));
-
-        SlideService.getSlide().forEach(q -> System.out.println(q.getContent()));
+        ProductService.getProduct().forEach(q -> System.out.println(q.getId_product()));
 
     }
 }

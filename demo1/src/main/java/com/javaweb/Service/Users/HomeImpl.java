@@ -6,9 +6,11 @@ package com.javaweb.Service.Users;
 
 import com.javaweb.Entity.Categorys;
 import com.javaweb.Entity.Menus;
+import com.javaweb.Entity.Products;
 import com.javaweb.Entity.Slides;
 import com.javaweb.Service.CategoryService;
 import com.javaweb.Service.MenuService;
+import com.javaweb.Service.ProductService;
 import com.javaweb.Service.SlideService;
 import java.util.List;
 import org.springframework.stereotype.Component;
@@ -34,6 +36,11 @@ public class HomeImpl implements IHome {
     @Override
     public List<Menus> getMenu() {
         return MenuService.getMenu();
+    }
+
+    @Override
+    public List<Products> getProduct() {
+        return ProductService.getProduct();
     }
 
 }

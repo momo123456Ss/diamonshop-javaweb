@@ -16,12 +16,14 @@ import org.springframework.web.servlet.ModelAndView;
  * @author HOME
  */
 @Controller
-public class HomeController extends BaseController{
-    
+public class HomeController extends BaseController {
+
     @RequestMapping(value = {"/", "/trang-chu"})
     public ModelAndView Index() {
-       _mvShare.addObject("slides", _homeservice.getSlide());
-       _mvShare.addObject("categorys", _homeservice.getCategory());
+        _mvShare.addObject("slides", _homeservice.getSlide());
+        _mvShare.addObject("categorys", _homeservice.getCategory());
+        _mvShare.addObject("categorys", _homeservice.getProduct());
+
         return _mvShare;
     }
 

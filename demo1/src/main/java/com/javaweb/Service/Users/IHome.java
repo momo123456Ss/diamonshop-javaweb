@@ -6,6 +6,7 @@ package com.javaweb.Service.Users;
 
 import com.javaweb.Entity.Categorys;
 import com.javaweb.Entity.Menus;
+import com.javaweb.Entity.Products;
 import com.javaweb.Entity.Slides;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,5 +25,7 @@ public interface IHome {
     public List<Categorys> getCategory();
     @Autowired
     public List<Menus> getMenu();
+    @Autowired
+    public List<Products> getProduct();
 
 }
