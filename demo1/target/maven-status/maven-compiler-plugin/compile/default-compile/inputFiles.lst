@@ -2,13 +2,16 @@ D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\j
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\configs\DispatcherServletInitializer.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\configs\WebApplicationContextConfig.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\controllers\HomeController.java
+D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Entity\Products.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Entity\Menus.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Service\Users\HomeImpl.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Service\JdbcUtils.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Service\MenuService.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Entity\Categorys.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Service\Users\IHome.java
+D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Dto\ProductsDto.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Service\SlideService.java
+D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Service\ProductService.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\demo1\Run.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Service\CategoryService.java
 D:\5.HomeWork\1.JavaWeb\diamondshop\diamonshop-javaweb\demo1\src\main\java\com\javaweb\Entity\Slides.java

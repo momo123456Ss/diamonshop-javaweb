@@ -21,7 +21,7 @@ public class ProductService {
     private static ApplicationContext ctx = new ClassPathXmlApplicationContext("beans.xml");
     private static JdbcTemplate t = (JdbcTemplate) ctx.getBean("t");
 
-    public static List<Products> getProduct() {
+    public static List<Products> getFeaturedProducts() {
         return t.query(SqlString(), (rs, num) -> {
             Products products = new Products();
             products.setId_product(rs.getLong("id_product"));

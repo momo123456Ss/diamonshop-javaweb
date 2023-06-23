@@ -22,7 +22,7 @@ public class HomeController extends BaseController {
     public ModelAndView Index() {
         _mvShare.addObject("slides", _homeservice.getSlide());
         _mvShare.addObject("categorys", _homeservice.getCategory());
-        _mvShare.addObject("categorys", _homeservice.getProduct());
+        _mvShare.addObject("products", _homeservice.getProduct());
 
         return _mvShare;
     }

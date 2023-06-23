@@ -40,7 +40,7 @@ public class HomeImpl implements IHome {
 
     @Override
     public List<Products> getProduct() {
-        return ProductService.getProduct();
+        return ProductService.getFeaturedProducts();
     }
 
 }

@@ -7,6 +7,4 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <<title>Sản phẩm</title>
 
-<body>
-    <h1>Đây là trang sản phẩm</h1>
-</body>
+<h1>Đây là trang sản phẩm</h1>

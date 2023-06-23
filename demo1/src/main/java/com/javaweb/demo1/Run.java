@@ -16,7 +16,7 @@ import java.util.List;
 public class Run {
 
     public static void main(String[] args) {
-        ProductService.getProduct().forEach(q -> System.out.println(q.getId_product()));
+        ProductService.getFeaturedProducts().forEach(q -> System.out.println(q.getPrice()));
 
     }
 }
